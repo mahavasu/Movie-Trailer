@@ -1,4 +1,2 @@
 # Movie-Trailer
-
-This Program the entertaiment.py will create a webpage with movies images stored and when one of the movie is clicked will show
-the trailer
+It is server-side code to store a list of your favorite movies, including box art imagery and a movie trailer URL, also serve this data as a web page allowing visitors to review their movies and watch the trailers.
