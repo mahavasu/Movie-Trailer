@@ -1,10 +1,10 @@
 
-
+#import dependencies
 import media
 import fresh_tomatoes
 
 #creating movie instance
-
+#For creating a movie instance you need to pass four arguments to the function Movie that in media where it will have the class defined
 frozen = media.Movie("Frozen","When their kingdom becomes trapped in perpetual winter, fearless Anna (Kristen Bell) joins forces with mountaineer Kristoff (Jonathan Groff) and his reindeer sidekick to find Anna's sister, Snow Queen Elsa (Idina Menzel), and break her icy spell. Although their epic journey leads them to encounters with mystical trolls, a comedic snowman (Josh Gad), harsh conditions, and magic at every turn, Anna and Kristoff bravely push onward in a race to save their kingdom from winter's cold grip.","http://img2.wikia.nocookie.net/__cb20131010215010/disney/images/b/b1/Frozen_ver8_xlg.jpg%3F9d7bd4.jpg","https://www.youtube.com/watch?v=R-cdIvgBCWY")
 diaryofwimpykid = media.Movie("Diary of the wimpy kid","Middle school is not an enjoyable experience for preteen Greg Heffley (Zachary Gordon) but a horrid ordeal of social land-mines that he must bear. To do so, he devises schemes to win him the recognition and status he feels he deserves -- all of which fail miserably. Greg chronicles his misadventures, thoughts and opinions in a diary to prepare for the day that he will no longer have to put up with nonsense.", "http://upload.wikimedia.org/wikipedia/en/4/4e/Diary_of_a_Wimpy_Kid_movie_poster.jpg","https://www.youtube.com/watch?v=ZbqqYuG1TCM")
 homealone = media.Movie("Home Alone","When bratty 8-year-old Kevin McCallister (Macaulay Culkin) acts out the night before a family trip to Paris, his mother (Catherine O'Hara) makes him sleep in the attic. After the McCallisters mistakenly leave for the airport without Kevin, he awakens to an empty house and assumes his wish to have no family has come true. But his excitement sours when he realizes that two con men (Joe Pesci, Daniel Stern) plan to rob the McCallister residence, and that he alone must protect the family home","http://ia.media-imdb.com/images/M/MV5BMTUzMzg4MTg2M15BMl5BanBnXkFtZTYwNDM4OTk4._V1_SX640_SY720_.jpg","https://www.youtube.com/watch?v=CK2Btk6Ybm0")
@@ -17,5 +17,5 @@ jumanji = media.Movie("Jumanji","A magical board game unleashes a world of adven
 #creating list of movies
 movie_list = [frozen,diaryofwimpykid,homealone,homealone2,homealone3,honeyishrunkthekids,jumanji]
 
-
+#this is the place where we send all the movies list and and in fresh_tomatoes is the python file where it displays as a image
 fresh_tomatoes.open_movies_page(movie_list)
